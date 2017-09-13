@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>John Barclay-Morton — Second Array Project</title>
+		<link rel="stylesheet" style type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		
+<!-- 		add convert to lower case -->
+		
+		<h1 id="fruitTypes">  </h1>
+		
+		<script>
+			
+			var fruit = [" apple", " orange", " kiwi"];
+			
+			
+			var typeFruit = prompt("Please add another kind of fruit");
+
+			
+			var salad = fruit.concat(" " +typeFruit.toLowerCase());
+
+			
+			salad.sort( );
+
+			
+			document.getElementById("fruitTypes").innerHTML = salad.join (" and ");
+			
+		</script>
+				
+	</body>
+</html>
